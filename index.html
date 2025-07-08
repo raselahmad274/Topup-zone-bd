@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8" />
+    <title>TopUpZoneBD</title>
+</head>
+<body>
+    <h1>স্বাগতম TopUpZoneBD টপআপ সাইটে!</h1>
+    <p>bKash/Nagad নম্বর: 01832160764</p>
+    <form id="topup-form">
+        গেম নির্বাচন করুন:
+        <select name="game" id="game-select">
+            <option value="freefire">Free Fire</option>
+            <option value="pubg">PUBG</option>
+            <option value="robux">Robux</option>
+        </select><br/><br/>
+        ইউজার আইডি: <input type="text" name="userid" required /><br/><br/>
+        পরিমাণ (Coin/ডিমন্ড): <input type="number" name="amount" required /><br/><br/>
+        <button type="submit">অর্ডার দিন</button>
+    </form>
+    <script>
+        document.getElementById('topup-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('অর্ডার পাওয়া গেছে! দয়া করে টাকা ' +
+                'bKash/Nagad নম্বর 01832160764 এ পাঠান এবং রিসিট মেইল করুন।');
+        });
+    </script>
+</body>
+</html>
