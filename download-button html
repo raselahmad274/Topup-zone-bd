@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Download App</title>
+</head>
+<body>
+  <h2>TopUpZoneBD অ্যাপ ডাউনলোড করুন</h2>
+  <a href="https://github.com/raselahmad274/Topup-zone-bd/raw/main/TopUpZoneBD.zip" download>
+    <button style="padding: 15px 30px; background-color: #007bff; color: white; border: none; border-radius: 8px; font-size: 18px; cursor: pointer;">
+      📱 Download App (ZIP)
+    </button>
+  </a>
+</body>
+</html>
